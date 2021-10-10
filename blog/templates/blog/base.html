@@ -11,8 +11,8 @@
     {% block content %}{% endblock %}
   </div>
   <div id="sidebar">
+  <h1 class="logo">Categories</h1>
       {% for category in categories %}
-          <h1 class="logo">Categories</h1>
            <h2 id="category">{{ category.name}}</h2>
       {% endfor %}
   </div>
